@@ -562,6 +562,7 @@
 			baseConfigurationReference = 6E55A4B31183CA80002768DE /* Library.xcconfig */;
 			buildSettings = {
 				ARCHS = (
+					i386,
 					armv6,
 					armv7,
 				);
