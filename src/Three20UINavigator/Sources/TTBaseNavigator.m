@@ -249,7 +249,7 @@ __attribute__((weak_import));
       [_rootContainer navigator:self setRootViewController:_rootViewController];
 
     } else {
-      [self.window addSubview:_rootViewController.view];
+      [self.window setRootViewController:_rootViewController];
     }
   }
 }
